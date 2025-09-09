@@ -45,7 +45,7 @@ pipeline {
                     }
             steps {
                 // Ejecuta las pruebas. Puedes pasar argumentos adicionales
-                sh "npm run test:${params.TARGET_ENV}:${params.TARGET_LANG} --reporter=junit'
+                sh "npm run test:${params.TARGET_ENV}:${params.TARGET_LANG} --reporter=junit"
             }
         }
     }
