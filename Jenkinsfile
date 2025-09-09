@@ -10,13 +10,11 @@ pipeline {
             choice(
                 name: 'TARGET_ENV',
                 choices: ['qa', 'preprod'],
-                defaultValue: 'qa',
                 description: 'Select the test environment'
             )
             choice(
                 name: 'TARGET_LANG',
                 choices: ['es', 'en', 'fr','ca', 'ko'],
-                defaultValue: 'en',
                 description: 'Select the language for the tests'
             )
         }
@@ -29,6 +27,17 @@ pipeline {
             }
         }
 
+
+        stage('Install Node.js') {
+            steps {
+                // Instala Node.js usando nvm o descarga directa
+                sh '''
+                    curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+                    sudo apt-get install -y nodejs
+                '''
+            }
+        }
+
         stage('Install Dependencies') {
             steps {
                 sh 'npm install'
@@ -38,14 +47,12 @@ pipeline {
         }
 
         stage('Run Playwright Tests') {
-            environment {
-                        // Aquí definimos la variable de entorno que el script va a leer,
-                        // usando el valor del parámetro de Jenkins
-                        TEST_ENV = "${params.TARGET_ENV}"
-                    }
             steps {
-                // Ejecuta las pruebas. Puedes pasar argumentos adicionales
-                sh "npm run test:${params.TARGET_ENV}:${params.TARGET_LANG} --reporter=junit"
+                script {
+                                    def targetEnv = params.TARGET_ENV ?: 'qa'
+                                    def targetLang = params.TARGET_LANG ?: 'en'
+                                    sh "npm run test:${targetEnv}:${targetLang} --reporter=junit"
+                         }
             }
         }
     }
