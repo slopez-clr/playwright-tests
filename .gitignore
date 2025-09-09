@@ -2,6 +2,8 @@
 node_modules/
 
 .idea
+playwright-report
+test-results
 
 # Build outputs
 dist/
