@@ -3,7 +3,7 @@ pipeline {
 
   //  tools {
         // Usa el nombre que le diste a la instalación de NodeJS en la configuración global
-        nodejs 'NodeJS 22'
+     //   nodejs 'NodeJS 22'
    // }
 // --- Definición de los parámetros con valores por defecto ---
     parameters {
