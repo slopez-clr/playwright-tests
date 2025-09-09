@@ -1,0 +1,476 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - dialog [ref=e4]:
+    - generic [ref=e5]:
+      - text: Utilizamos cookies propias y de terceros para ofrecer nuestros servicios, personalizar la experiencia y mejorar nuestro servicio mediante información estadística. Consulte nuestra
+      - link "Política de cookies" [ref=e6] [cursor=pointer]:
+        - /url: https://clorian.com/politica-cookies/
+        - generic [ref=e7] [cursor=pointer]: Política de cookies
+      - text: para más información.
+    - generic [ref=e8]:
+      - button "Aceptar todas" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10] [cursor=pointer]: Aceptar todas
+      - button "Rechazar todas" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12] [cursor=pointer]: Rechazar todas
+      - button "Configurar" [ref=e13] [cursor=pointer]:
+        - generic [ref=e14] [cursor=pointer]: Configurar
+  - banner:
+    - navigation [ref=e15]:
+      - generic [ref=e16]:
+        - link "MuseoThyssen logo" [ref=e18] [cursor=pointer]:
+          - /url: /es
+          - img "MuseoThyssen logo" [ref=e19] [cursor=pointer]
+        - list [ref=e20]:
+          - button " ACCESO AMIGO" [ref=e21] [cursor=pointer]:
+            - link " ACCESO AMIGO" [ref=e22] [cursor=pointer]:
+              - /url: /es/login
+              - generic [ref=e23] [cursor=pointer]:
+                - generic [ref=e24] [cursor=pointer]: 
+                - generic [ref=e25] [cursor=pointer]: ACCESO AMIGO
+          - button "shopping cart Mi cesta" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27] [cursor=pointer]:
+              - generic "shopping cart" [ref=e28] [cursor=pointer]: 
+              - generic [ref=e29] [cursor=pointer]: Mi cesta
+          - button "Español" [ref=e30] [cursor=pointer]:
+            - button "Español" [ref=e32] [cursor=pointer]: Español
+  - main [ref=e34]:
+    - generic [ref=e36]:
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Visita Libre" [ref=e40] [cursor=pointer]:
+            - /url: /
+            - text: Visita Libre
+        - listitem [ref=e41]:
+          - link "Actividades" [ref=e42] [cursor=pointer]:
+            - /url: /241-actividades
+            - text: Actividades
+        - listitem [ref=e43]:
+          - link "Visita con tu guía/profesor" [ref=e44] [cursor=pointer]:
+            - /url: /1-visita-con-tu-guiaprofesor
+            - text: Visita con tu guía/profesor
+        - listitem [ref=e45]:
+          - link "Educathyssen" [ref=e46] [cursor=pointer]:
+            - /url: /2-educathyssen
+            - text: Educathyssen
+        - listitem [ref=e47]:
+          - link "Amigosthyssen" [ref=e48] [cursor=pointer]:
+            - /url: /4-amigosthyssen
+            - text: Amigosthyssen
+        - listitem [ref=e49]:
+          - link "Thyssen Pro" [ref=e50] [cursor=pointer]:
+            - /url: /3-thyssen-pro
+            - text: Thyssen Pro
+      - generic [ref=e55]:
+        - generic [ref=e58]:
+          - button "Entrada al museo" [ref=e59] [cursor=pointer]
+          - button "Gastronomía" [ref=e60] [cursor=pointer]
+          - button "Triangulo del Arte" [ref=e61] [cursor=pointer]
+          - button "Catálogo" [ref=e62] [cursor=pointer]
+        - article [ref=e65]:
+          - img "Entrada única" [ref=e68]
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - heading "Entrada única" [level=1] [ref=e71]
+              - paragraph [ref=e72]:
+                - paragraph [ref=e73]:
+                  - generic [ref=e74]: "Incluye:"
+                - list [ref=e75]:
+                  - listitem [ref=e76]:
+                    - strong [ref=e77]:
+                      - generic [ref=e78]: Colección permanente
+                  - listitem [ref=e79]:
+                    - strong [ref=e80]:
+                      - generic [ref=e81]: Colección Carmen Thyssen
+                  - listitem [ref=e82]:
+                    - generic [ref=e83]:
+                      - strong [ref=e84]: Terrafilia
+                      - text: (del 1 de julio al 24 de septiembre de 2025)
+                  - listitem [ref=e85]:
+                    - generic [ref=e86]:
+                      - strong [ref=e87]: Ayako Rokkaku
+                      - text: (del 23 de mayo al 7 de septiembre de 2025)
+                  - listitem [ref=e88]:
+                    - generic [ref=e89]:
+                      - strong [ref=e90]: Isabel Coixet. Collages
+                      - text: (del 10 de junio al 14 de septiembre de 2025)
+                  - listitem [ref=e91]:
+                    - generic [ref=e92]:
+                      - strong [ref=e93]: Anna Weyant
+                      - text: (del 15 de julio al 12 de octubre de 2025)
+            - generic [ref=e95]:
+              - button "Comprar" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98] [cursor=pointer]: Comprar
+              - button "Info" [ref=e99] [cursor=pointer]:
+                - generic [ref=e100] [cursor=pointer]: Info
+        - article [ref=e103]:
+          - img "Entrada con audioguía" [ref=e106]
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - heading "Entrada con audioguía" [level=1] [ref=e109]
+              - paragraph [ref=e110]:
+                - paragraph [ref=e111]:
+                  - generic [ref=e112]: "Incluye:"
+                - list [ref=e113]:
+                  - listitem [ref=e114]:
+                    - strong [ref=e115]:
+                      - generic [ref=e116]: Colección permanente
+                  - listitem [ref=e117]:
+                    - strong [ref=e118]:
+                      - generic [ref=e119]: Colección Carmen Thyssen
+                  - listitem [ref=e120]:
+                    - generic [ref=e121]:
+                      - strong [ref=e122]: Ayako Rokkaku
+                      - text: (del 23 de mayo al 7 de septiembre de 2025)
+                  - listitem [ref=e123]:
+                    - generic [ref=e124]:
+                      - strong [ref=e125]: Terrafilia
+                      - text: (del 1 de julio al 24 de septiembre de 2025)
+                  - listitem [ref=e126]:
+                    - generic [ref=e127]:
+                      - strong [ref=e128]: Isabel Coixet. Collages
+                      - text: (del 10 de junio al 14 de septiembre de 2025)
+                  - listitem [ref=e129]:
+                    - generic [ref=e130]:
+                      - strong [ref=e131]: Anna Weyant
+                      - text: (del 15 de julio al 12 de octubre de 2025)
+                - paragraph [ref=e132]:
+                  - generic [ref=e133]:
+                    - text: Consulta los contenidos de la audioguía y duración
+                    - link "aquí" [ref=e134] [cursor=pointer]:
+                      - /url: https://www.museothyssen.org/visita/recursos/audioguias-webapp
+                - paragraph
+            - generic [ref=e136]:
+              - button "Comprar" [ref=e138] [cursor=pointer]:
+                - generic [ref=e139] [cursor=pointer]: Comprar
+              - button "Info" [ref=e140] [cursor=pointer]:
+                - generic [ref=e141] [cursor=pointer]: Info
+        - article [ref=e144]:
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - heading "Entrada + cuaderno Terrafilia" [level=1] [ref=e148]
+              - paragraph [ref=e149]:
+                - paragraph [ref=e150]:
+                  - generic [ref=e151]: "Incluye:"
+                - list [ref=e152]:
+                  - listitem [ref=e153]:
+                    - strong [ref=e154]:
+                      - generic [ref=e155]: Colección permanente
+                  - listitem [ref=e156]:
+                    - strong [ref=e157]:
+                      - generic [ref=e158]: Colección Carmen Thyssen
+                  - listitem [ref=e159]:
+                    - generic [ref=e160]:
+                      - strong [ref=e161]: Terrafilia
+                      - text: (del 1 de julio al 24 de septiembre de 2025)
+                  - listitem [ref=e162]:
+                    - generic [ref=e163]:
+                      - strong [ref=e164]: Ayako Rokkaku
+                      - text: (del 23 de mayo al 7 de septiembre de 2025)
+                  - listitem [ref=e165]:
+                    - generic [ref=e166]:
+                      - strong [ref=e167]: Isabel Coixet. Collages
+                      - text: (del 10 de junio al 14 de septiembre de 2025)
+                  - listitem [ref=e168]:
+                    - generic [ref=e169]:
+                      - strong [ref=e170]: Anna Weyant
+                      - text: (del 15 de julio al 12 de octubre de 2025)
+                - paragraph [ref=e171]:
+                  - generic [ref=e172]: Recogida en la tienda del museo.
+                - paragraph
+                - paragraph:
+                  - generic:
+                    - strong
+                - paragraph
+                - paragraph
+            - generic [ref=e174]:
+              - button "Comprar" [ref=e176] [cursor=pointer]:
+                - generic [ref=e177] [cursor=pointer]: Comprar
+              - button "Info" [ref=e178] [cursor=pointer]:
+                - generic [ref=e179] [cursor=pointer]: Info
+        - article [ref=e182]:
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - heading "Entrada única" [level=1] [ref=e186]
+              - paragraph [ref=e187]:
+                - paragraph [ref=e188]:
+                  - generic [ref=e189]: "Incluye:"
+                - list [ref=e190]:
+                  - listitem [ref=e191]:
+                    - strong [ref=e192]:
+                      - generic [ref=e193]: Colección permanente
+                  - listitem [ref=e194]:
+                    - strong [ref=e195]:
+                      - generic [ref=e196]: Colección Carmen Thyssen
+                  - listitem [ref=e197]:
+                    - generic [ref=e198]:
+                      - strong [ref=e199]: Ayako Rokkaku
+                      - text: (del 23 de mayo al 7 de septiembre de 2025)
+                  - listitem [ref=e200]:
+                    - generic [ref=e201]:
+                      - strong [ref=e202]: Isabel Coixet. Collages
+                      - text: (del 10 de junio al 14 de septiembre de 2025)
+                  - listitem [ref=e203]:
+                    - generic [ref=e204]:
+                      - strong [ref=e205]: Anna Weyant
+                      - text: (del 15 de julio al 12 de octubre de 2025)
+            - generic [ref=e207]:
+              - button "Comprar" [ref=e209] [cursor=pointer]:
+                - generic [ref=e210] [cursor=pointer]: Comprar
+              - button "Info" [ref=e211] [cursor=pointer]:
+                - generic [ref=e212] [cursor=pointer]: Info
+        - article [ref=e215]:
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - heading "Entrada con audioguía" [level=1] [ref=e219]
+              - paragraph [ref=e220]:
+                - paragraph [ref=e221]:
+                  - generic [ref=e222]: "Incluye:"
+                - list [ref=e223]:
+                  - listitem [ref=e224]:
+                    - strong [ref=e225]:
+                      - generic [ref=e226]: Colección permanente
+                  - listitem [ref=e227]:
+                    - strong [ref=e228]:
+                      - generic [ref=e229]: Colección Carmen Thyssen
+                  - listitem [ref=e230]:
+                    - generic [ref=e231]:
+                      - strong [ref=e232]: Ayako Rokkaku
+                      - text: (del 23 de mayo al 7 de septiembre de 2025)
+                  - listitem [ref=e233]:
+                    - generic [ref=e234]:
+                      - strong [ref=e235]: Isabel Coixet. Collage
+                      - text: (del 10 de junio al 14 de septiembre de 2025)
+                  - listitem [ref=e236]:
+                    - generic [ref=e237]:
+                      - strong [ref=e238]: Anna Weyant
+                      - text: (del 15 de julio al 12 de octubre de 2025)
+                - paragraph [ref=e239]:
+                  - generic [ref=e240]:
+                    - text: Consulta los contenidos de la audioguía y duración
+                    - link "aquí" [ref=e241] [cursor=pointer]:
+                      - /url: https://www.museothyssen.org/visita/recursos/audioguias-webapp
+                - paragraph [ref=e242]:
+                  - strong [ref=e244]
+                - paragraph
+            - generic [ref=e246]:
+              - button "Comprar" [ref=e248] [cursor=pointer]:
+                - generic [ref=e249] [cursor=pointer]: Comprar
+              - button "Info" [ref=e250] [cursor=pointer]:
+                - generic [ref=e251] [cursor=pointer]: Info
+        - article [ref=e254]:
+          - generic [ref=e256]:
+            - generic [ref=e257]:
+              - heading "Paseo del Arte" [level=1] [ref=e258]
+              - paragraph [ref=e259]:
+                - paragraph [ref=e260]: Museo del Prado + Museo Reina Sofía + Museo Thyssen
+                - paragraph
+                - paragraph
+            - generic [ref=e262]:
+              - button "Comprar" [ref=e264] [cursor=pointer]:
+                - generic [ref=e265] [cursor=pointer]: Comprar
+              - button "Info" [ref=e266] [cursor=pointer]:
+                - generic [ref=e267] [cursor=pointer]: Info
+        - article [ref=e270]:
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - heading "Art & Brunch" [level=1] [ref=e274]
+              - paragraph [ref=e275]:
+                - paragraph [ref=e276]:
+                  - strong [ref=e277]:
+                    - generic [ref=e278]: Mesa hasta dos personas
+                - paragraph [ref=e279]:
+                  - generic [ref=e280]: Experimenta el Museo Thyssen con los cinco sentidos combinando tu visita con un delicioso brunch en La Terraza del Thyssen.
+                - paragraph [ref=e281]:
+                  - generic [ref=e282]: "Incluye el acceso a:"
+                - list [ref=e283]:
+                  - listitem [ref=e284]:
+                    - strong [ref=e286]: Colección permanente
+                  - listitem [ref=e287]:
+                    - strong [ref=e289]: Colección Carmen Thyssen
+                  - listitem [ref=e290]:
+                    - strong [ref=e292]: Exposiciones temporales
+                - paragraph [ref=e293]:
+                  - generic [ref=e294]:
+                    - text: Brunch en Las Terrazas del Thyssen en horario de 11:00 a 13:00 horas. Consulta
+                    - link "aquí" [ref=e295] [cursor=pointer]:
+                      - /url: https://cdn.clorian.com/img/clients/MuseoThyssen/brunch/terraza/thyssen-brunch-05-es_compressed_terraza.pdf
+                    - text: el menú
+                - paragraph [ref=e296]:
+                  - generic [ref=e297]: Para mesas a partir de 5 personas contactar con Info@lasterrazasdelthyssen.art
+            - generic [ref=e299]:
+              - button "Comprar" [ref=e301] [cursor=pointer]:
+                - generic [ref=e302] [cursor=pointer]: Comprar
+              - button "Info" [ref=e303] [cursor=pointer]:
+                - generic [ref=e304] [cursor=pointer]: Info
+        - article [ref=e307]:
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - heading "Art & Brunch" [level=1] [ref=e311]
+              - paragraph [ref=e312]:
+                - paragraph [ref=e313]:
+                  - strong [ref=e314]:
+                    - generic [ref=e315]: Mesa hasta cuatro personas
+                - paragraph [ref=e316]:
+                  - generic [ref=e317]: Experimenta el Museo Thyssen con los cinco sentidos combinando tu visita con un delicioso brunch en La Terraza del Thyssen.
+                - paragraph [ref=e318]:
+                  - generic [ref=e319]: "Incluye el acceso a:"
+                - list [ref=e320]:
+                  - listitem [ref=e321]:
+                    - strong [ref=e323]: Colección permanente
+                  - listitem [ref=e324]:
+                    - strong [ref=e326]: Colección Carmen Thyssen
+                  - listitem [ref=e327]:
+                    - strong [ref=e329]: Exposiciones temporales
+                - paragraph [ref=e330]:
+                  - generic [ref=e331]:
+                    - text: Brunch en Las Terrazas del Thyssen en horario de 11:00 a 13:00 horas. Consulta
+                    - link "aquí" [ref=e332] [cursor=pointer]:
+                      - /url: https://cdn.clorian.com/img/clients/MuseoThyssen/brunch/terraza/thyssen-brunch-05-es_compressed_terraza.pdf
+                    - text: el menú
+                - paragraph [ref=e333]:
+                  - generic [ref=e334]: Para mesas a partir de 5 personas contactar con Info@lasterrazasdelthyssen.art
+            - generic [ref=e336]:
+              - button "Comprar" [ref=e338] [cursor=pointer]:
+                - generic [ref=e339] [cursor=pointer]: Comprar
+              - button "Info" [ref=e340] [cursor=pointer]:
+                - generic [ref=e341] [cursor=pointer]: Info
+        - article [ref=e344]:
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - heading "Art & Brunch" [level=1] [ref=e348]
+              - paragraph [ref=e349]:
+                - paragraph [ref=e350]:
+                  - generic [ref=e351]: Experimenta el Museo Thyssen con los cinco sentidos combinando tu visita con un delicioso brunch en La Cafetería del Thyssen.
+                - paragraph [ref=e352]:
+                  - generic [ref=e353]: "Incluye el acceso a:"
+                - list [ref=e354]:
+                  - listitem [ref=e355]:
+                    - strong [ref=e356]:
+                      - generic [ref=e357]: Colección permanente
+                  - listitem [ref=e358]:
+                    - strong [ref=e359]:
+                      - generic [ref=e360]: Colección Carmen Thyssen
+                  - listitem [ref=e361]:
+                    - generic [ref=e362]:
+                      - strong [ref=e363]: Ayako Rokkaku
+                      - text: (del 23 de mayo al 7 de septiembre de 2025)
+                  - listitem [ref=e364]:
+                    - generic [ref=e365]:
+                      - strong [ref=e366]: Isabel Coixet. Collages
+                      - text: (del 10 de junio al 14 de septiembre de 2025)
+                  - listitem [ref=e367]:
+                    - generic [ref=e368]:
+                      - strong [ref=e369]: Anna Weyant
+                      - text: (del 15 de julio al 12 de octubre de 2025)
+                - paragraph [ref=e370]:
+                  - generic [ref=e371]:
+                    - text: Brunch en La Cafetería en horario de 11:00 a 13:00 horas. Consulta
+                    - link "aquí" [ref=e372] [cursor=pointer]:
+                      - /url: https://cdn.clorian.com/img/clients/MuseoThyssen/brunch/terraza/thyssen-brunch-05-es_compressed_terraza.pdf
+                    - text: el menú
+                - paragraph [ref=e373]:
+                  - generic [ref=e374]: Para mesas a partir de 6 personas contactar con Info@lasterrazasdelthyssen.art
+            - generic [ref=e376]:
+              - button "Comprar" [ref=e378] [cursor=pointer]:
+                - generic [ref=e379] [cursor=pointer]: Comprar
+              - button "Info" [ref=e380] [cursor=pointer]:
+                - generic [ref=e381] [cursor=pointer]: Info
+        - article [ref=e384]:
+          - generic [ref=e386]:
+            - generic [ref=e387]:
+              - heading "Entrada + Catálogo Obras maestras" [level=1] [ref=e388]
+              - paragraph [ref=e389]:
+                - paragraph [ref=e390]:
+                  - generic [ref=e391]: "Incluye:"
+                - list [ref=e392]:
+                  - listitem [ref=e393]:
+                    - strong [ref=e394]:
+                      - generic [ref=e395]: Colección permanente
+                  - listitem [ref=e396]:
+                    - strong [ref=e397]:
+                      - generic [ref=e398]: Colección Carmen Thyssen
+                  - listitem [ref=e399]:
+                    - generic [ref=e400]:
+                      - strong [ref=e401]: Ayako Rokkaku
+                      - text: (del 23 de mayo al 7 de septiembre de 2025)
+                  - listitem [ref=e402]:
+                    - generic [ref=e403]:
+                      - strong [ref=e404]: Isabel Coixet. Collage
+                      - text: (del 10 de junio al 14 de septiembre de 2025)
+                  - listitem [ref=e405]:
+                    - generic [ref=e406]:
+                      - strong [ref=e407]: Anna Weyant
+                      - text: (del 15 de julio al 12 de octubre de 2025)
+                  - listitem [ref=e408]:
+                    - strong [ref=e409]:
+                      - generic [ref=e410]: Catálogo Obras maestras (en español)
+                - paragraph [ref=e411]:
+                  - generic [ref=e412]: Recogida en Tienda del museo
+                - paragraph
+            - generic [ref=e414]:
+              - button "Comprar" [ref=e416] [cursor=pointer]:
+                - generic [ref=e417] [cursor=pointer]: Comprar
+              - button "Info" [ref=e418] [cursor=pointer]:
+                - generic [ref=e419] [cursor=pointer]: Info
+        - article [ref=e422]:
+          - generic [ref=e424]:
+            - generic [ref=e425]:
+              - heading "Art & Lunch" [level=1] [ref=e426]
+              - paragraph [ref=e427]:
+                - paragraph [ref=e428]:
+                  - generic [ref=e429]:
+                    - text: Disfruta de un almuerzo en el restaurante del museo al finalizar tu visita. La carta cuenta con una cuidada selección de ensaladas, entrantes, principales y postres a elegir. Carta para niños también disponible. Consulta el menú
+                    - link "aquí" [ref=e430] [cursor=pointer]:
+                      - /url: https://cdn.clorian.com/img/clients/MuseoThyssen/menus_2023_gastro/thyssen-lunch-02-es_compressed.pdf
+                    - text: .
+                - paragraph [ref=e431]:
+                  - generic [ref=e432]: "Incluye:"
+                - list [ref=e433]:
+                  - listitem [ref=e434]:
+                    - strong [ref=e435]:
+                      - generic [ref=e436]: Colección permanente
+                  - listitem [ref=e437]:
+                    - strong [ref=e438]:
+                      - generic [ref=e439]: Colección Carmen Thyssen
+                  - listitem [ref=e440]:
+                    - generic [ref=e441]:
+                      - strong [ref=e442]: Terrafilia
+                      - text: (del 1 de julio al 24 de septiembre de 2025)
+                  - listitem [ref=e443]:
+                    - generic [ref=e444]:
+                      - strong [ref=e445]: Ayako Rokkaku
+                      - text: (del 23 de mayo al 7 de septiembre de 2025)
+                  - listitem [ref=e446]:
+                    - generic [ref=e447]:
+                      - strong [ref=e448]: Isabel Coixet. Collages
+                      - text: (del 10 de junio al 14 de septiembre de 2025)
+                  - listitem [ref=e449]:
+                    - generic [ref=e450]:
+                      - strong [ref=e451]: Anna Weyant
+                      - text: (del 15 de julio al 12 de octubre de 2025)
+            - generic [ref=e453]:
+              - button "Comprar" [ref=e455] [cursor=pointer]:
+                - generic [ref=e456] [cursor=pointer]: Comprar
+              - button "Info" [ref=e457] [cursor=pointer]:
+                - generic [ref=e458] [cursor=pointer]: Info
+  - contentinfo [ref=e459]:
+    - generic [ref=e461]:
+      - generic [ref=e462]:
+        - heading "Fundación Colección Thyssen-Bornemisza" [level=2] [ref=e463]
+        - list [ref=e464]:
+          - listitem [ref=e465]: Paseo del Prado 8
+          - listitem [ref=e466]: 28014, Madrid
+          - listitem [ref=e467]: "CIF: G-79015251"
+      - generic [ref=e468]:
+        - strong [ref=e469]:
+          - paragraph [ref=e470]: "Atención al cliente:"
+        - button "Política de devoluciones" [ref=e472] [cursor=pointer]:
+          - generic [ref=e473] [cursor=pointer]: Política de devoluciones
+    - paragraph [ref=e476]:
+      - generic [ref=e477]: Powered by
+      - generic [ref=e478]:
+        - text: "|"
+        - generic [ref=e480] [cursor=pointer]: Política de cookies
+```

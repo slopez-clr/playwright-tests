@@ -1,0 +1,37 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "debug": "playwright test --debug",
+    "test:qa": "TEST_ENV=qa playwright test",
+    "test:preprod": "TEST_ENV=preproduction playwright test",
+    "test:qa:en": "TEST_ENV=qa playwright test --project=\"*-en-qa\"",
+    "test:qa:es": "TEST_ENV=qa playwright test --project=\"*-es-qa\"",
+    "test:qa:ca": "TEST_ENV=qa playwright test --project=\"*-ca-qa\"",
+    "test:qa:fr": "TEST_ENV=qa playwright test --project=\"*-fr-qa\"",
+    "test:qa:ko": "TEST_ENV=qa playwright test --project=\"*-ko-qa\"",
+    "test:preprod:en": "TEST_ENV=preproduction playwright test --project=\"*-en-preproduction\"",
+    "test:preprod:es": "TEST_ENV=preproduction playwright test --project=\"*-es-preproduction\"",
+    "test:preprod:ca": "TEST_ENV=preproduction playwright test --project=\"*-ca-preproduction\"",
+    "test:preprod:fr": "TEST_ENV=preproduction playwright test --project=\"*-fr-preproduction\"",
+    "test:preprod:ko": "TEST_ENV=preproduction playwright test --project=\"*-ko-preproduction\"",
+    "test:qa:firefox": "TEST_ENV=qa playwright test --project=\"firefox-*-qa\"",
+    "test:qa:chrome": "TEST_ENV=qa playwright test --project=\"chrome-*-qa\"",
+    "test:preprod:chrome": "TEST_ENV=preproduction playwright test --project=\"chrome-*-preproduction\"",
+    "test:qa:all": "TEST_ENV=qa playwright test",
+    "test:preprod:all": "TEST_ENV=preproduction playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
+  }
+}
