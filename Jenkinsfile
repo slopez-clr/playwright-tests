@@ -1,10 +1,11 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'node:22'
+            args '-u root'
+        }
+    }
 
-  //  tools {
-        // Usa el nombre que le diste a la instalación de NodeJS en la configuración global
-     //   nodejs 'NodeJS 22'
-   // }
 // --- Definición de los parámetros con valores por defecto ---
     parameters {
             choice(
@@ -24,17 +25,6 @@ pipeline {
             steps {
                 // Clona tu repositorio de Git
                 git branch: 'master', url: 'https://github.com/slopez-clr/playwright-tests.git'
-            }
-        }
-
-
-        stage('Install Node.js') {
-            steps {
-                // Instala Node.js usando nvm o descarga directa
-                sh '''
-                    curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
-                    sudo apt-get install -y nodejs
-                '''
             }
         }
 
