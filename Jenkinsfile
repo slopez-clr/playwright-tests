@@ -5,6 +5,21 @@ pipeline {
         // Usa el nombre que le diste a la instalación de NodeJS en la configuración global
         nodejs 'NodeJS 22'
     }
+// --- Definición de los parámetros con valores por defecto ---
+    parameters {
+            choice(
+                name: 'TARGET_ENV',
+                choices: ['qa', 'preprod'],
+                defaultValue: 'qa',
+                description: 'Select the test environment'
+            )
+            choice(
+                name: 'TARGET_LANG',
+                choices: ['es', 'en', 'fr','ca', 'ko'],
+                defaultValue: 'en',
+                description: 'Select the language for the tests'
+            )
+        }
 
     stages {
         stage('Checkout') {
@@ -30,7 +45,7 @@ pipeline {
                     }
             steps {
                 // Ejecuta las pruebas. Puedes pasar argumentos adicionales
-                sh 'npx playwright test --reporter=junit'
+                sh "npm run test:${params.TARGET_ENV}:${params.TARGET_LANG} --reporter=junit'
             }
         }
     }
