@@ -31,14 +31,14 @@ pipeline {
         stage('Install Dependencies') {
             steps {
 
-                // 1. Usa el comando de shell 'md5sum' para obtener el hash del archivo.
-                //    La opción returnStdout: true captura la salida del comando.
-                script{
-                    def checksum = sh(script: 'md5sum package-lock.json', returnStdout: true).trim()
-                    // 2. Utiliza la variable 'checksum' como la clave para el caché.
-                    cache(path: 'node_modules', key: checksum) {
-                        sh 'npm install'
-                    }
+                script {
+                        // Revisa si el directorio node_modules existe.
+                        if (fileExists('node_modules')) {
+                            echo "node_modules directory already exists. Skipping npm install."
+                        } else {
+                            echo "node_modules directory not found. Installing dependencies."
+                            sh 'npm install'
+                        }
                 }
 
                 // Instala los navegadores necesarios
