@@ -33,6 +33,9 @@ pipeline {
                 sh 'npm install'
                 // Instala los navegadores necesarios
                 sh 'npx playwright install'
+                // Instala dependencias adicionales si es necesario
+                sh 'npx playwright install-deps'
+
             }
         }
 
