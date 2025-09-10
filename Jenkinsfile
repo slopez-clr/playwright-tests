@@ -41,10 +41,16 @@ pipeline {
                         }
                 }
 
-                // Instala los navegadores necesarios
-                sh 'npx playwright install'
-                // Instala dependencias adicionales si es necesario
-                sh 'npx playwright install-deps'
+                // Revisa si los navegadores de Playwright ya están instalados.
+                // La ubicación del caché es común en entornos Docker/Linux.
+                if (fileExists('/root/.cache/ms-playwright/')) {
+                    echo "Playwright browsers already exist. Skipping playwright install."
+                } else {
+                    echo "Playwright browsers not found. Installing browsers."
+                    sh 'npx playwright install'
+                    // Instala dependencias adicionales si es necesario (ej. para Linux)
+                    sh 'npx playwright install-deps'
+                }
 
             }
         }
