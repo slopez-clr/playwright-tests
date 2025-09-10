@@ -31,9 +31,13 @@ pipeline {
         stage('Install Dependencies') {
             steps {
 
-                // Usa caché para las dependencias de npm. Borrar si se desea reinstalar todo desde cero. Necesita el plugin Pipeline Utility Steps  instalado en Jenkins.
-                cache(path: 'node_modules', key: "${md5sum('package-lock.json')}") {
-                   sh 'npm install'
+                // 1. Usa el comando de shell 'md5sum' para obtener el hash del archivo.
+                //    La opción returnStdout: true captura la salida del comando.
+                def checksum = sh(script: 'md5sum package-lock.json', returnStdout: true).trim()
+
+                // 2. Utiliza la variable 'checksum' como la clave para el caché.
+                cache(path: 'node_modules', key: checksum) {
+                    sh 'npm install'
                 }
                 // Instala los navegadores necesarios
                 sh 'npx playwright install'
