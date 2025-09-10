@@ -31,7 +31,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 // Usa caché para las dependencias de npm. Borrar si se desea reinstalar todo desde cero
-                cache(path: 'node_modules', key: "${md5.md5sum('package-lock.json')}") {
+                cache(path: 'node_modules', key: "${md5sum('package-lock.json')}") {
                    sh 'npm install'
                 }
                 // Instala los navegadores necesarios
